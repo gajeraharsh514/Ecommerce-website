@@ -1,0 +1,39 @@
+/* Universal sellector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* diiffrent type of button */
+.btn_square {
+  width: 13vmax;
+  cursor: pointer;
+  padding: 1vmax 2vmax;
+  border-radius: 2.3vmax;
+  background-color: #717fe0;
+  transition: all 0.3s;
+  color: #fff;
+}
+.btn_square:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #717fe0;
+}
